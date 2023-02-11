@@ -44,6 +44,6 @@ void PrintMatrix (double[,] matrix)
 }
 
 int row = GetNumber("Введите количество строк:");
-int columns = GetNumber("Введите количество столбцов:");
-double[,] array = InitMatrix(row, columns);
-PrintMatrix(array);
+int columns = GetNumber("Введите количество колонок:");
+double[,] matrix = InitMatrix(row, columns);
+PrintMatrix(matrix);
