@@ -66,7 +66,7 @@ double[] FindEverageForColumns (int[,] matrix)
 
 void PrintArray (double[] array)
 {
-    Console.Write("Среднее арифметическое каждого столбца: ");
+    Console.Write("Среднее арифметическое каждой колонки: ");
     
     for (int i = 0; i < array.Length; i++)
     {
